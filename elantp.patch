@@ -1,0 +1,14 @@
+--- ssdt1.dsl   2022-06-27 02:54:40.285014600 -0700
++++ ssdt1-elanwake.dsl  2022-06-27 02:58:51.169435000 -0700
+@@ -1536,11 +1536,6 @@
+                     }
+             })
+             Name (_S0W, 0x04)  // _S0W: S0 Device Wake State
+-            Name (_PRW, Package (0x02)  // _PRW: Power Resources for Wake
+-            {
+-                0x7B, 
+-                0x03
+-            })
+             Name (_DSD, Package (0x02)  // _DSD: Device-Specific Data
+             {
+                 ToUUID ("daffd814-6eba-4d8c-8a91-bc9bbf4aa301") /* Device Properties for _DSD */,
